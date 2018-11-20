@@ -1,6 +1,22 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+);
+
+
+
 .navbar {
 	margin: 0px;
 }
+
 
 .jumbotron {	
 	margin-top: 0px;
@@ -10,3 +26,56 @@
 	background-size: 100%;
 }
 
+.thumbnail {	
+	border-color: #cccccc;
+	border-width: 6px;
+	border-radius: 10px;
+	padding: 0px;
+}
+
+.thumbnail h3{
+	padding: 1px;
+}
+
+.thumbnail p{
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.btn-group {
+	padding-left: 40%;
+	padding-bottom: 5px;
+}
+
+.row {
+	clear: both;
+}
+
+button {
+	color: black;
+	border-radius: 3px;
+}
+
+.col-md-12{
+	height: 40px;
+	border-style: solid;
+	border-color: #bbbbbb;
+	border-width: 1px;
+}
+
+.col-md-12 img {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 50vw;
+	margin-top: 4px;
+	
+}
+
+footer {
+	height: 40px;
+	background-color: #cccccc;
+	text-align: center;
+	display: block;
+	padding-top: 10px;
+}
