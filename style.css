@@ -1,0 +1,12 @@
+.navbar {
+	margin: 0px;
+}
+
+.jumbotron {	
+	margin-top: 0px;
+	text-align: center;
+	color: white;
+	background-image: url(assets/images/bg2.jpg);
+	background-size: 100%;
+}
+
